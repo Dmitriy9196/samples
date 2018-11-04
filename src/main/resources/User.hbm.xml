@@ -1,0 +1,7 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/orm/hbm">
+    <class name="User" table="dimas" catalog = "sample-schema">
+        <id name="id" column="ID" type="java.lang.Integer"/>
+        <property name="name" type="string" column="NAME"/>
+        <property name="lastName" type="string" column="LAST_NAME"/>
+    </class>
+</hibernate-mapping>
