@@ -11,7 +11,7 @@ import org.hibernate.SessionFactory;
 @NoArgsConstructor
 public class User {
 
-    private static SessionFactory session = HibernateSessionFactoryUtil.getSessionFactory();
+    private static SessionFactory session = HibernateUtil.getSessionFactory();
 
     private int id;
 
